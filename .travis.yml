@@ -2,5 +2,4 @@ language: scala
 scala:
    - 2.9.3
 script:
-  - sbt -jvm-opts travis/jvmopts.compile ... compile
-  - sbt -jvm-opts travis/jvmopts.test ... test
+  - sbt test
